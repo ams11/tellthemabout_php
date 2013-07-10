@@ -1,0 +1,1 @@
+body,td,th {	font-family: Geneva, Arial, Helvetica, sans-serif;	font-size: 11px;	color: #FFFFFF;}a.mylink:link {color:navy }a.mylink:visited { color: navy }a.mylink:hover { color: #999999 }a.mylink:active {color: navy }a:link {	color: #FFFFFF;}a:visited {	color: #FFFFFF;}a:hover {	color: #999999;}a:active {	color: #FFFFFF;}img.mylink {    cursor: hand;}

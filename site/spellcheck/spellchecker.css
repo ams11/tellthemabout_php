@@ -1,0 +1,38 @@
+body {
+    font-size: 12px;
+    font-family: Helvetica,Verdana,Tahoma,sans-serif;
+}
+
+.dictionaries {
+    border: 1px solid black;
+    padding: 3px 0 5px 10px;
+    margin-bottom: 10px;
+    width: 400px
+}
+
+.custom {
+    padding-top: 3px;
+}
+
+.load {
+    margin-left: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.title {
+    padding-bottom: 5px;
+}
+
+.list {
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+    border:1px solid black;
+}
+
+.heading {
+    margin-top: 15px;
+}

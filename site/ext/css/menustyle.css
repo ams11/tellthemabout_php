@@ -1,0 +1,1043 @@
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0;
+border: 0px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+
+font:normal 11px;
+line-height:17px; /*box hight*/
+z-index:100;
+background-color: #333;
+width: 200px;
+visibility: hidden;
+//filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); 
+/*Add Shadow in IE. Remove if desired*/
+}
+
+
+.dropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 0px solid #BBB; /*THEME CHANGE HERE*/
+padding: 2px 0; /*verticle hieght of submenu*/
+text-decoration: none;
+/*font-weight: bold;*/
+color: #fff;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #f60;
+}
+
+
+
+
+
+/***************************** QUICK JUMP MENU ***************************************/
+
+
+.qjstyle{
+width: 146px;
+font-weight: bold;
+font-size:9px;
+}
+
+.qjstyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.qjstyle ul{
+border: 0px solid #999; /*box margin size and colour*/
+width: 100%;
+/*background: url(chromebg.gif) center center repeat-x;    */
+background-color: white;   /*THEME CHANGE HERE*/
+padding: 2px 0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.qjstyle ul li{
+display: inline;
+}
+
+.qjstyle ul li a{
+color: #000; /*FONT COLOUR*/
+padding: 2px 9px; /* cell padding around the text vetical then horizonal - ALSO defines where the second menu sits vertically*/
+margin: 0;
+text-decoration: none;
+border-right: 0px solid #DADADA; /*defines the colour ans size of the vertical spliters*/
+}
+
+.qjstyle ul li a:hover{
+/*background: url(/files/menu/hover.gif) center center repeat-x; THEME CHANGE HERE*/
+background-color:#f60 
+}
+
+.qjstyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+content: " "  url(/files/menu/downarrowblack.gif);
+
+}
+
+
+/* ######### Style for Quick Jump Drop Down Menu ######### */
+
+.qjdropmenudiv{
+position:absolute;
+top: 0;
+border: 0px solid #000; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal;
+font-size:9px;
+line-height:11px; /*box hight*/
+z-index:100;
+background-color: #fff;
+width: 146px;
+visibility: hidden;
+/*// filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); 
+Add Shadow in IE. Remove if desired*/
+}
+
+
+.qjdropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #000; /*THEME CHANGE HERE*/
+padding: 2px 0; /*verticle hieght of submenu*/
+text-decoration: none;
+/*font-weight: bold;*/
+color: #000;
+}
+
+* html .qjdropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.qjdropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #f60;
+}
+
+
+
+
+
+
+/***************************** SUB MENU RED ***************************************/
+/****************** Currently in use for the Rickshaw Run *************************/
+
+.rrstyle{
+width: 99%;
+font-weight: bold;
+}
+
+.rrstyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.rrstyle ul{
+border: 0px solid #BBB; /*box margin size and colour*/
+width: 100%;
+/*background: url(chromebg.gif) center center repeat-x;    
+background-color: blue;   /*THEME CHANGE HERE*/
+padding: 3.5px 0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.rrstyle ul li{
+display: inline;
+}
+
+.rrstyle ul li a{
+color: #fff; /*FONT COLOUR*/
+padding: 3.5px 9px; /* cell padding around the text vetical then horizonal - ALSO defines where the second menu sits vertically*/
+margin: 0;
+text-decoration: none;
+border-right: 0px solid #DADADA; /*defines the colour ans size of the vertical spliters*/
+}
+
+.rrstyle ul li a:hover{
+/*background: url(/files/menu/hover.gif) center center repeat-x; THEME CHANGE HERE*/
+background-color: #300; 
+}
+
+.rrstyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+content: " "  url(/files/menu/downarrow.gif);
+
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.rrdropmenudiv{
+position:absolute;
+top: 0;
+border: 0px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 11px;
+line-height:17px; /*box hight*/
+z-index:100;
+background-color: #d00;
+width: 200px;
+visibility: hidden;
+/*filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); 
+Add Shadow in IE. Remove if desired*/
+}
+
+
+.rrdropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 0px solid #300; /*THEME CHANGE HERE*/
+padding: 2px 0; /*verticle hieght of submenu*/
+text-decoration: none;
+/*font-weight: bold;*/
+color: #fff;
+}
+
+* html .rrdropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.rrdropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #300;
+}
+
+
+
+
+
+/***************************** SUB MENU BLUE ***************************************/
+/****************** Currently in use for the MONGOL RALLY *************************/
+
+.mrstyle{
+width: 99%;
+font-weight: bold;
+}
+
+.mrstyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.mrstyle ul{
+border: 0px solid #BBB; /*box margin size and colour*/
+width: 100%;
+/*background: url(chromebg.gif) center center repeat-x;    
+background-color: blue;   /*THEME CHANGE HERE*/
+padding: 3.5px 0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.mrstyle ul li{
+display: inline;
+}
+
+.mrstyle ul li a{
+color: #fff; /*FONT COLOUR*/
+padding: 3.5px 9px; /* cell padding around the text vetical then horizonal - ALSO defines where the second menu sits vertically*/
+margin: 0;
+text-decoration: none;
+border-right: 0px solid #DADADA; /*defines the colour ans size of the vertical spliters*/
+}
+
+.mrstyle ul li a:hover{
+/*background: url(/files/menu/hover.gif) center center repeat-x; THEME CHANGE HERE*/
+// background-color: #2F2F73; 
+background-color: #f7941d; 
+
+}
+
+.mrstyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+content: " "  url(/files/menu/downarrow.gif);
+
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.mrdropmenudiv{
+position:absolute;
+top: 0;
+border: 0px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 11px;
+line-height:17px; /*box hight*/
+z-index:100;
+background-color: #000059;
+width: 200px;
+visibility: hidden;
+/*filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); 
+Add Shadow in IE. Remove if desired*/
+}
+
+
+.mrdropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 0px solid #000020; /*THEME CHANGE HERE*/
+padding: 2px 0; /*verticle hieght of submenu*/
+text-decoration: none;
+/*font-weight: bold;*/
+color: #fff;
+}
+
+* html .mrdropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.mrdropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #f7941d;
+}
+
+
+/***************************** SUB MENU GREEN ***************************************/
+/****************** MD *************************/
+
+.mdstyle{
+font-family: "Arial", sans-serif;
+width: 99%;
+font-weight: bold;
+}
+
+.mdstyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.mdstyle ul{
+border: 0px solid #BBB; /*box margin size and colour*/
+width: 100%;
+/*background: url(chromebg.gif) center center repeat-x;    
+background-color: blue;   /*THEME CHANGE HERE*/
+padding: 3.5px 0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.mdstyle ul li{
+display: inline;
+}
+
+.mdstyle ul li a{
+color: #222; /*FONT COLOUR*/
+padding: 3.5px 9px; /* cell padding around the text vetical then horizonal - ALSO defines where the second menu sits vertically*/
+margin: 0;
+text-decoration: none;
+border-right: 0px solid #DADADA; /*defines the colour ans size of the vertical spliters*/
+}
+
+.mdstyle ul li a:hover{
+/*background: url(/files/menu/hover.gif) center center repeat-x; THEME CHANGE HERE*/
+background-color: #6c0; 
+}
+
+.mdstyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+content: " "  url(/files/menu/downarrow.gif);
+
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.mddropmenudiv{
+position:absolute;
+top: 0;
+border: 0px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 11px;
+line-height:17px; /*box hight*/
+z-index:100;
+background-color: #9f0;
+width: 200px;
+visibility: hidden;
+/*filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); 
+Add Shadow in IE. Remove if desired*/
+}
+
+
+.mddropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 0px solid #300; /*THEME CHANGE HERE*/
+padding: 2px 0; /*verticle hieght of submenu*/
+text-decoration: none;
+/*font-weight: bold;*/
+color: #222;
+}
+
+* html .mddropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.mddropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #6c0;
+}
+
+
+
+/***************************** SUB MENU YELLOW ***************************************/
+/****************** AFRICA RALLY *************************/
+
+.arstyle{
+width: 99%;
+font-weight: bold;
+}
+
+.arstyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.arstyle ul{
+border: 0px solid #BBB; /*box margin size and colour*/
+width: 100%;
+/*background: url(chromebg.gif) center center repeat-x;    
+background-color: blue;   /*THEME CHANGE HERE*/
+padding: 3.5px 0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.arstyle ul li{
+display: inline;
+}
+
+.arstyle ul li a{
+color: #222; /*FONT COLOUR*/
+padding: 3.5px 9px; /* cell padding around the text vetical then horizonal - ALSO defines where the second menu sits vertically*/
+margin: 0;
+text-decoration: none;
+border-right: 0px solid #DADADA; /*defines the colour ans size of the vertical spliters*/
+}
+
+.arstyle ul li a:hover{
+/*background: url(/files/menu/hover.gif) center center repeat-x; THEME CHANGE HERE*/
+background-color: #c60; 
+}
+
+.arstyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+content: " "  url(/files/menu/downarrow.gif);
+
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.ardropmenudiv{
+position:absolute;
+top: 0;
+border: 0px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 11px;
+line-height:17px; /*box hight*/
+z-index:100;
+background-color: #f90;
+width: 200px;
+visibility: hidden;
+/*filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); 
+Add Shadow in IE. Remove if desired*/
+}
+
+
+.ardropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 0px solid #300; /*THEME CHANGE HERE*/
+padding: 2px 0; /*verticle hieght of submenu*/
+text-decoration: none;
+/*font-weight: bold;*/
+color: #222;
+}
+
+* html .ardropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.ardropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #c60;
+}
+
+
+
+
+/***************************** SUB MENU GREEN ***************************************/
+/****************** MD *************************/
+
+.grstyle{
+width: 99%;
+font-weight: bold;
+}
+
+.grstyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.grstyle ul{
+border: 0px solid #BBB; /*box margin size and colour*/
+width: 100%;
+/*background: url(chromebg.gif) center center repeat-x;    
+background-color: blue;   /*THEME CHANGE HERE*/
+padding: 3.5px 0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.grstyle ul li{
+display: inline;
+}
+
+.grstyle ul li a{
+color: #222; /*FONT COLOUR*/
+padding: 3.5px 9px; /* cell padding around the text vetical then horizonal - ALSO defines where the second menu sits vertically*/
+margin: 0;
+text-decoration: none;
+border-right: 0px solid #DADADA; /*defines the colour ans size of the vertical spliters*/
+}
+
+.grstyle ul li a:hover{
+/*background: url(/files/menu/hover.gif) center center repeat-x; THEME CHANGE HERE*/
+background-color: #6c0; 
+}
+
+.grstyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+content: " "  url(/files/menu/downarrow.gif);
+
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.grdropmenudiv{
+position:absolute;
+top: 0;
+border: 0px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 11px;
+line-height:17px; /*box hight*/
+z-index:100;
+background-color: #9f0;
+width: 200px;
+visibility: hidden;
+/*filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); 
+Add Shadow in IE. Remove if desired*/
+}
+
+
+.grdropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 0px solid #300; /*THEME CHANGE HERE*/
+padding: 2px 0; /*verticle hieght of submenu*/
+text-decoration: none;
+/*font-weight: bold;*/
+color: #222;
+}
+
+* html .grdropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.grdropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #6c0;
+}
+
+
+
+/***************************** SUB MENU YELLOW ***************************************/
+/****************** AFRICA RALLY *************************/
+
+.arstyle{
+width: 99%;
+font-weight: bold;
+}
+
+.arstyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.arstyle ul{
+border: 0px solid #BBB; /*box margin size and colour*/
+width: 100%;
+/*background: url(chromebg.gif) center center repeat-x;    
+background-color: blue;   /*THEME CHANGE HERE*/
+padding: 3.5px 0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.arstyle ul li{
+display: inline;
+}
+
+.arstyle ul li a{
+color: #222; /*FONT COLOUR*/
+padding: 3.5px 9px; /* cell padding around the text vetical then horizonal - ALSO defines where the second menu sits vertically*/
+margin: 0;
+text-decoration: none;
+border-right: 0px solid #DADADA; /*defines the colour ans size of the vertical spliters*/
+}
+
+.arstyle ul li a:hover{
+/*background: url(/files/menu/hover.gif) center center repeat-x; THEME CHANGE HERE*/
+background-color: #c60; 
+}
+
+.arstyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+content: " "  url(/files/menu/downarrow.gif);
+
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.ardropmenudiv{
+position:absolute;
+top: 0;
+border: 0px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 11px;
+line-height:17px; /*box hight*/
+z-index:100;
+background-color: #f90;
+width: 200px;
+visibility: hidden;
+/*filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); 
+Add Shadow in IE. Remove if desired*/
+}
+
+
+.ardropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 0px solid #300; /*THEME CHANGE HERE*/
+padding: 2px 0; /*verticle hieght of submenu*/
+text-decoration: none;
+/*font-weight: bold;*/
+color: #222;
+}
+
+* html .ardropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.ardropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #c60;
+}
+
+
+
+/***************************** SUB MENU GREEN ***************************************/
+/****************** MD *************************/
+
+.mdstyle{
+width: 99%;
+font-weight: bold;
+}
+
+.mdstyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.mdstyle ul{
+border: 0px solid #BBB; /*box margin size and colour*/
+width: 100%;
+/*background: url(chromebg.gif) center center repeat-x;    
+background-color: blue;   /*THEME CHANGE HERE*/
+padding: 3.5px 0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.mdstyle ul li{
+display: inline;
+}
+
+.mdstyle ul li a{
+color: #222; /*FONT COLOUR*/
+padding: 3.5px 9px; /* cell padding around the text vetical then horizonal - ALSO defines where the second menu sits vertically*/
+margin: 0;
+text-decoration: none;
+border-right: 0px solid #DADADA; /*defines the colour ans size of the vertical spliters*/
+}
+
+.mdstyle ul li a:hover{
+/*background: url(/files/menu/hover.gif) center center repeat-x; THEME CHANGE HERE*/
+background-color: #fe9001; 
+}
+
+.mdstyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+content: " "  url(/files/menu/downarrow.gif);
+
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.mddropmenudiv{
+position:absolute;
+top: 0;
+border: 0px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 11px;
+line-height:17px; /*box hight*/
+z-index:100;
+background-color: #fabd00;
+width: 200px;
+visibility: hidden;
+/*filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); 
+Add Shadow in IE. Remove if desired*/
+}
+
+
+.mddropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 0px solid #300; /*THEME CHANGE HERE*/
+padding: 2px 0; /*verticle hieght of submenu*/
+text-decoration: none;
+/*font-weight: bold;*/
+color: #222;
+}
+
+* html .mddropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.mddropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #fe9001;
+}
+
+
+/***************************** SUB MENU GUN-METAL-GREY AND ORANGE*******************************/
+/****************** MD10 *************************/
+.md10menutable{
+margin:10px;
+overflow:auto;
+}
+.md10style{
+font-weight: bold;
+font-family: "Arial", sans-serif;
+overflow:visible;
+}
+
+.md10style:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+.md10style ul,
+.md10style ul li {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 48px;
+}
+
+.md10style ul {
+	height: 50px;
+	width:100%;
+	background: url('/img/menu/navigation_90.png') repeat-x 0 -50px;
+	/*background:#333;*/
+
+}
+
+.md10style ul li a {
+color:green;
+display: block;
+	height: 50px;
+	padding: 0 18px;
+	color: #ccc;
+	text-decoration: none;
+	background: url('/img/menu/navigation_s90.png') no-repeat right top;
+		/*background:#333;*/
+}
+
+.md10style ul li.selected a {
+	color: #fff;
+}
+
+.md10style ul li.last a{
+}
+
+.md10style ul li a:hover {
+	color: #fff;
+}
+/* ######### Style for Drop Down Menu ######### */
+
+.md10dropmenudiv{
+font-family: "Arial", sans-serif;
+position:absolute;
+top: 0;
+border: 0px solid #fff; /*THEME CHANGE HERE*/
+background-color: #333;
+margin:0px;
+line-height:17px; /*box hight*/
+z-index:100;
+width: 200px;
+visibility: hidden;
+/*filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); 
+Add Shadow in IE. Remove if desired*/
+}
+
+
+.md10dropmenudiv a{
+color: #FFF;
+font-size:12px;
+width: auto;
+display: block;
+text-indent: 3px;
+/*border-bottom: 0px solid #300; THEME CHANGE HERE*/
+padding: 2px 0; /*verticle hieght of submenu*/
+text-decoration: none;
+/*font-weight: bold;*/
+}
+
+* html .md10dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.md10dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #fe9001;
+color: white;
+text-decoration: none;
+
+}
+
+#md10search {
+width:265px;
+white-space:no-wrap;
+overflow:hidden;
+color:#FFF;
+font-size:2px;
+font-family:'Arial', sans-serif;
+text-align:right;
+float:right;
+
+}
+#md10search a {
+
+background:none;
+display:inline;
+}
+
+#md10login {
+width:265px;
+white-space:no-wrap;
+overflow:hidden;
+color:#FFF;
+font-size:2px;
+font-family:'Arial', sans-serif;
+text-align:right;
+float:right;
+
+}
+#md10login a {
+
+background:none;
+display:inline;
+}
+
+#logoQuickJump{
+width:40px;
+height:50px;
+padding:0px;
+border:none;
+color:none;
+}
+#logoQuickJump a{
+color:none;
+margin:-3.5px 0px 0px -32px; /*moves the logo around*/
+background:none;
+border:none;
+}
+
+#logoQuickJump img{
+border:none;
+}
+#jumplinksdropmenu{
+margin:3px 32px;
+}
+
+/***************************** SUB MENU GUN-METAL-GREY AND RED*******************************/
+
+.vmmenutable{
+margin:10px;
+overflow:auto;
+}
+.vmstyle{
+font-weight: bold;
+font-family: "Arial", sans-serif;
+overflow:visible;
+}
+
+.vmstyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+.vmstyle ul,
+.vmstyle ul li {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 48px;
+}
+
+.vmstyle ul {
+	height: 50px;
+	width:100%;
+	background: url('/img/menu/navigation_90.png') repeat-x 0 -50px;
+	/*background:#333;*/
+
+}
+
+.vmstyle ul li a {
+color:green;
+display: block;
+	height: 50px;
+	padding: 0 18px;
+	color: #ccc;
+	text-decoration: none;
+	background: url('/img/menu/navigation_s90.png') no-repeat right top;
+		/*background:#333;*/
+}
+
+.vmstyle ul li.selected a {
+	color: #fff;
+}
+
+.vmstyle ul li.last a{
+}
+
+.vmstyle ul li a:hover {
+	color: #fff;
+}
+/* ######### Style for Drop Down Menu ######### */
+
+.vmdropmenudiv{
+font-family: "Arial", sans-serif;
+position:absolute;
+top: 0;
+border: 0px solid #fff; /*THEME CHANGE HERE*/
+background-color: #222;
+margin:0px;
+line-height:17px; /*box hight*/
+z-index:100;
+width: 200px;
+visibility: hidden;
+/*filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); 
+Add Shadow in IE. Remove if desired*/
+}
+
+
+.vmdropmenudiv a{
+color: #FFF;
+font-size:12px;
+width: auto;
+display: block;
+text-indent: 3px;
+/*border-bottom: 0px solid #300; THEME CHANGE HERE*/
+padding: 2px 0; /*verticle hieght of submenu*/
+text-decoration: none;
+/*font-weight: bold;*/
+}
+
+* html .vmdropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.vmdropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #b80000;
+color: #fff;
+
+}
+
+#vmlogin {
+width:265px;
+white-space:no-wrap;
+overflow:hidden;
+color:#FFF;
+font-size:2px;
+font-family:'Arial', sans-serif;
+text-align:right;
+float:right;
+
+}
+#vmlogin a {
+
+background:none;
+display:inline;
+}
+#vmlogoQuickJump{
+width:40px;
+height:50px;
+padding:0px;
+border:none;
+color:none;
+}
+#vmlogoQuickJump a{
+color:none;
+margin:-3.5px 0px 0px -32px; /*moves the logo around*/
+background:none;
+border:none;
+}
+
+#vmlogoQuickJump img{
+border:none;
+}
+#vmjumplinksdropmenu{
+margin:3px 32px;
+}
